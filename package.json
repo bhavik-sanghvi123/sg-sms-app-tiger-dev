@@ -1,0 +1,43 @@
+{
+  "name": "SMS_SG",
+  "version": "1.0.0",
+  "description": "Send SMS Journey Builder",
+  "engines": {
+    "node": "12.x"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "journey",
+    "builder",
+    "salesforce marketing cloud",
+    "heroku"
+  ],
+  "author": "Test",
+  "homepage": "",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.18.2",
+    "errorhandler": "^1.5.0",
+    "express": "^4.15.4",
+    "html-entities": "^2.1.0",
+    "jsonwebtoken": "^8.0.1",
+    "pg": "^8.5.1",
+    "request": "^2.81.0",
+    "throng": "^5.0.0",
+    "urlencode": "^1.1.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "axios-debug-log": "^0.8.2",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7"
+  }
+}

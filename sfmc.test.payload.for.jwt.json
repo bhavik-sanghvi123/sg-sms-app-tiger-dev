@@ -1,0 +1,16 @@
+{
+  "inArguments": [
+    {
+      "campaignName": "campaign name",
+      "phoneNumber": "phonenumber",
+      "textMessage": "kjhasdkjashdakjshdsajkdh ",
+      "brandNames": "Abbott",
+      "smsBoolean": "False",
+      "contactID": "salesforce contactid",
+      "shortMsg": "kjhasdkjashdakjshdsajkdh",
+      "firstName": "first name",
+      "lastName": "lastName",
+      "selectedMsgID": "SFMC"
+    }
+  ]
+} // JWT encoded

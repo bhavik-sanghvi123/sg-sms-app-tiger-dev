@@ -1,0 +1,73 @@
+{
+  "workflowApiVersion": "1.1",
+  "metaData": {
+    "icon": "images/icon.png",
+    "iconSmall": "images/iconSmall.png",
+    "category": "message"
+  },
+  "type": "REST",
+  "lang": {
+    "en-US": {
+      "name": "SMS Extension",
+      "description": "SMS Application Abbott",
+      "step1Label": "Configure Activity"
+    }
+  },
+  "arguments": {
+    "execute": {
+      "inArguments": [],
+      "outArguments": [],
+      "url": "execute",
+      "verb": "POST",
+      "format": "json",
+      "useJwt": true,
+      "timeout": 100000,
+      "retryCount": 5,
+      "retryDelay": 10000,
+      "concurrentRequests": 1
+    }
+  },
+  "configurationArguments": {
+    "save": {
+      "url": "save",
+      "verb": "POST",
+      "useJwt": true
+    },
+    "publish": {
+      "url": "publish",
+      "verb": "POST",
+      "useJwt": true
+    },
+    "stop": {
+      "url": "stop",
+      "verb": "POST",
+      "useJwt": true
+    },
+    "validate": {
+      "url": "validate",
+      "verb": "POST",
+      "useJwt": true
+    }
+  },
+  "wizardSteps": [
+    {
+      "label": "Configure Activity",
+      "key": "step1"
+    }
+  ],
+  "userInterfaces": {
+    "configModal": {
+      "height": 700,
+      "width": 1000,
+      "fullscreen": false
+    }
+  },
+  "schema": {
+    "arguments": {
+      "execute": {
+        "inArguments": [],
+        "outArguments": []
+      }
+    }
+  }
+}
